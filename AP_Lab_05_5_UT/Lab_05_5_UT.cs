@@ -4,7 +4,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using AP_Lab_05_5;
 
-
 namespace AP_Lab_05_5_UT
 {
     [TestClass]
