@@ -21,7 +21,7 @@ namespace AP_Lab_05_5
                 return 1;
 
             else if (n > 0 && r >= 0 && r <= n * (k - 1) + 1)
-                return F(n - 1, r - 1, k, ii + 1, level + 1, ref depth);
+                return F(n - 1, r - ii, k, ii, level + 1, ref depth) + F(n - 1, r - ii - 1, k, ii + 1, level + 1, ref depth);
 
             else return 0;
         }

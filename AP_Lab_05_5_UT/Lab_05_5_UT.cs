@@ -14,9 +14,9 @@ namespace AP_Lab_05_5_UT
         {
             int depth = 0;
 
-            double k = Lab_05_5.F(40, 5, 64, 0, 0, ref depth);
+            double k = Lab_05_5.F(20, 8, 5, 0, 0, ref depth);
 
-            Assert.AreEqual(0, k);
+            Assert.AreEqual(6, k);
         }
     }
 }
